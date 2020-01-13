@@ -1,0 +1,74 @@
+/*---------------------Colours---------------------------*/
+
+.menu-bg {
+    background-color: #FAFAFA;
+}
+
+.content-header {
+    color: #3E4BB9;
+}
+
+/*-------------------Navigation Menu---------------------*/
+
+.logo {
+    position: relative;
+    max-width: 50px;
+    margin: 3px 0 3px 3px;
+}
+
+.navbar {
+    padding: 0;
+    margin-top: 13px;
+    float: right;
+}
+
+.navbar li {
+    margin-right: 35px;
+    list-style: none;
+    font-weight: 5px;
+}
+
+.navbar a {
+    color: #3E4BB9;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #000000;
+}
+
+.navbar-fix {
+
+    position: fixed;
+}
+
+/*----------------Content and Headers-----------*/
+
+.content-header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*----------------Sad Animals Picture-----------*/
+
+#sadimg {
+    height: 700px;
+    background-image: url(../images/abandonedcat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: background-image 2s;
+}
+
+#sadimg:hover {
+    background-image: url(../images/abandoneddog.jpg)
+}
+
+.under-border {
+    border-bottom: 30px #FAFAFA 
+}
+
+/*-------------------Media Queries-----------------*/
+
+@media (max-width:1024px) {
+}

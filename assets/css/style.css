@@ -5,7 +5,7 @@
 }
 
 .content-header {
-    color: #3E4BB9;
+    color: #585858;
 }
 
 /*-------------------Navigation Menu---------------------*/
@@ -18,7 +18,7 @@
 
 .navbar {
     padding: 0;
-    margin-top: 13px;
+    margin-top: 15px;
     float: right;
 }
 
@@ -40,37 +40,59 @@
 .navbar-fix {
     position: fixed;
     z-index: 1;
-    width: 103%;
+    width: 100vw;
 }
 
 /*----------------Content and Headers-----------*/
 
 .content-header {
     text-align: center;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 /*----------------Sad Animals Picture-----------*/
-
-#sadimg {
-    margin-top: 55px;
-    height: 700px;
-    background-image: url(../images/abandonedcat.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: background-image 2s;
+.carousel {
+    width: 100%;
+    position: center;
 }
 
-#sadimg:hover {
-    background-image: url(../images/abandoneddog.jpg)
-}
-
-.under-border {
-    border-bottom: 30px #FAFAFA 
+.sadimg {
+    margin-top: 50px;
+    max-height: 970px;
+    position: center;
 }
 
 /*-------------------Media Queries-----------------*/
 
 @media (max-width:1024px) {
+    .navbar-fix {
+        width: 103%;
+    }
+
+    .navbar {
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width:768px) {
+    
+    .navbar {
+        margin-right: 0px;
+    }
+
+    .navbar li {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width:568px) {
+    .navbar-fix {
+        width: 104%;
+    } 
+
+    .navbar {
+        margin-right: 10px;
+    }
+
 }

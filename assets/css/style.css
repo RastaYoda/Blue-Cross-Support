@@ -52,6 +52,18 @@ body {
     border-bottom: 1px solid #4e4e4e;
 }
 
+#mobile-navbar {
+    display: none;
+    visibility: hidden;
+}
+
+#btn-menu {
+    background-color: #FAFAFA;
+    border: 0;
+    color: #000000;
+    margin-top: 7px;
+}
+
 /*----------------Sad Animals Picture-----------*/
 
 .carousel {
@@ -99,29 +111,51 @@ body {
 .help-heading {
     font-family: 'Gelasio', serif;
     margin-top: 30px;
+    padding: 0;
+    padding-top: 5px;
 }
 
 .how-we-help p {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding: 0 5px 5px 5px;
 }
 
-.card {
-    width: 20px;
+.card-row {
+    width: 100vw;
 }
 
 .card-fg {
-    background-color: rgba(37,130, 255, 0.6);
+    background-color: rgba(255,255,255, 0.8);
     background-repeat: no-repeat;
-    background-size: 200px 600px;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
 }
 
-#rehome {
-    min-height: 400px;
-    background-image: url(../images/rehoming.jpg);
+.card-images {
+    height: 420px;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#rehome {
+    background-image: url(../images/rehoming.jpg);
+}
+
+#vet {
+    background-image: url(../images/veterinary.jpg);
+}
+
+#education {
+    background-image: url(../images/education.jpg);
+}
+
+#bereavement {
+    background-image: url(../images/pet-bereavement.jpg);
+}
+
 /*-------------------Media Queries-----------------*/
 
 
@@ -154,14 +188,35 @@ body {
 }
 
 @media (max-width:1024px) {
+    
+    .sadimg {
+        margin-top: 10px;
+    }
+
     .navbar-fix {
         width: 100%;
     }
-    
+
     .content-header {
         margin-bottom: 0;
     }
+
+    .card-fg {
+    width: 90%;
+    margin-top: 10%;
+    }
+
+    .card-row {
+    width: auto;
+    }
+
+    .card-images {
+        max-height: 300px;
+        background-size: cover;
+    }
 }
+
+
 
 @media (max-width:768px) {
 
@@ -176,11 +231,31 @@ body {
     .fb-video {
         margin-left: 0;
     }
+
+    .navbar {
+        display: none;
+        visibility: hidden;
+    }
+
+    #mobile-navbar {
+        display: inline;
+        visibility: visible;
+        float: right;
+    }
 }
 
 /*-Mobile-*/
 
 @media (max-width:568px) {
+
+    #btn-menu {
+        margin-top: 3px;
+    }
+
+    .logo {
+        max-width: 35px;
+        margin: 4px 0 4px 6px;
+    }
 
     .navbar {
         margin-right: 10px;
@@ -193,17 +268,15 @@ body {
 
 
 @media (max-width:400px) {
-    .logo {
-        max-width: 30px;
-        margin: 11px 0 3px 6px;
-    }
+    
 
     .navbar {
         margin-right: 3px;
     }
 
     .navbar li {
-        margin-right: 9px;
+        margin: 0;
+        border: 1px solid #000000;
     }
     
     .about-us {

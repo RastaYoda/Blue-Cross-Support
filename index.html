@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-US">
  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
  </head>
 
@@ -26,7 +27,7 @@
     </div>
    </div>
     <!---Images--->
-   <div id="sadimg" class="carousel slide" data-ride="carousel" data-interval="4000">
+   <div id="home" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="3000">
     <div class="carousel-inner">
       <div class="carousel-item active sadimg">
         <img class="d-block w-100" src="assets/images/abandoneddog.jpg" alt="Abandoned Dog">
@@ -41,9 +42,49 @@
   </div>
   </header>
   
-  <section>
-   <h2 class="content-header">What is Blue Cross?</h2>
-   <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FthebluecrossUK%2Fvideos%2F2416904371971911%2F&show_text=0&width=560" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+  <section class="about-us-bg">
+   <span><h2 class="content-header">What is Blue Cross?</h2></span>
+    <div class="row">   
+     <!--Facebook Embedded Video-->
+     <div class="col-xl-5 col-lg-12 col-sm-12">
+      <p align="center"><iframe class="fb-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FthebluecrossUK%2Fvideos%2F2416904371971911%2F&show_text=0&width=560" width="600" height="340" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></p>
+     </div>
+     <!--About Blue Cross Content-->
+     <div class="col-xl-6 col-lg-12 col-sm-12 about-us">
+      <p>Blue Cross is a charity that has been helping sick, injured, abandoned and homeless pets since 1897.
+      Pets help us in so many ways and they depend entirely on us. That's why at Blue Cross we believe in helping pets because pets help us.</p>
+      <p>We help thousands of pets in need every month, providing veterinary care, expert behaviour help and find them loving happy homes, 
+      as well as advice and education for current or future pet owners and pet bereavement support. We develop lifelong relationships with pets and owners, 
+      providing quality care that is accessible and non-judgemental. With your support we can give back to more pets in need.</p>
+      <p>Our vision is that every pet will enjoy a healthy life in a happy home and we won't rest until we achieve it. But we really need your help.
+      We care for around 40,000 pets every year but we know it's not enough - there are many, many more out there who still desperately need us and we must be there for them.</p>
+      <p><strong>Pets change lives. We change theirs.</strong></p>
+     </div>
+    </div>
+  </section>
+
+  <section class="how-we-help">
+   <!--How we help top-->
+   <div class="row">
+    <div class="col-6" class="card" id="rehome">
+     <div class="card-fg">
+      <h3 class="help-heading">Rehoming</h3>
+      <p>We find homes for unwanted cats, dogs, small pets and horses<br /> across the UK and our tailor-made service means we<br /> help each pet find the right person for them.</p>
+     </div>
+    </div>
+    <div class="col-6" id="vet">
+     <h3 class="help-heading">Veterinary</h3>
+    </div>
+   </div>
+   <!--How we help bottom-->
+   <div class="row">
+    <div class="col-6" id="education">
+     <h3 class="help-heading">Education</h3>
+    </div>
+    <div class="col-6" id="bereavement">
+     <h3 class="help-heading">Pet Bereavement Support</h3>
+    </div>
+   </div>
   </section>
 
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -57,3 +98,6 @@ https://wallpaperscraft.com/download/dog_street_small_abandoned_26615/1920x1080
 https://www.petsforpatriots.org/11-signs-of-animal-cruelty-and-how-you-can-help/abandoned-cat-cruelty-720x450/
 https://www.peta.org/wp-content/uploads/2016/03/homeless-dirty-white-cat-PETA-owned-602x400.jpg
 ----->
+
+<!-------Content and other information was pulled from official blue cross website. I have received their permession to do so
+and advertise their cause. There's the link: https://www.bluecross.org.uk/about-blue-cross ------------>

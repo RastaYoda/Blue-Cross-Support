@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 /*---------------------Colours---------------------------*/
 
 .menu-bg {
@@ -5,7 +10,11 @@
 }
 
 .content-header {
-    color: #585858;
+    color: #000000;
+}
+
+.about-us-bg {
+    background-color: #F2F2F2;
 }
 
 /*-------------------Navigation Menu---------------------*/
@@ -25,7 +34,6 @@
 .navbar li {
     margin-right: 35px;
     list-style: none;
-    font-weight: 5px;
 }
 
 .navbar a {
@@ -41,42 +49,122 @@
     position: fixed;
     z-index: 1;
     width: 100vw;
+    border-bottom: 1px solid #4e4e4e;
 }
+
+/*----------------Sad Animals Picture-----------*/
+
+.carousel {
+    width: 100%;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.sadimg {
+    margin-top: 50px;
+    max-height: 900px;
+    width: 100%;
+}
+
 
 /*----------------Content and Headers-----------*/
 
 .content-header {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    font-family: 'Gelasio', serif;
+    font-weight: 300;
 }
 
-/*----------------Sad Animals Picture-----------*/
-.carousel {
-    width: 100%;
-    position: center;
+.fb-video {
+    max-width: 100%;
+    position: relative;
+    display: block;
 }
 
-.sadimg {
+.about-us {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 15px;
+}
+
+/*-------------------How We Help Cards-------------*/
+
+.how-we-help {
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+}
+
+.help-heading {
+    font-family: 'Gelasio', serif;
+    margin-top: 30px;
+}
+
+.how-we-help p {
+    text-align: center;
     margin-top: 50px;
-    max-height: 970px;
-    position: center;
 }
 
+.card {
+    width: 20px;
+}
+
+.card-fg {
+    background-color: rgba(37,130, 255, 0.6);
+    background-repeat: no-repeat;
+    background-size: 200px 600px;
+}
+
+#rehome {
+    min-height: 400px;
+    background-image: url(../images/rehoming.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /*-------------------Media Queries-----------------*/
 
-@media (max-width:1024px) {
-    .navbar-fix {
-        width: 103%;
+
+@media (max-width:1650px) {
+    .fb-video {
+        margin-left: 30px;
     }
+
+    .about-us {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:1500px) {
+    .fb-video {
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width:1200px) {
 
     .navbar {
         margin-right: 10px;
     }
+    
+    .about-us {
+        text-align: center;
+    }
+}
 
+@media (max-width:1024px) {
+    .navbar-fix {
+        width: 100%;
+    }
+    
+    .content-header {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width:768px) {
-    
+
     .navbar {
         margin-right: 0px;
     }
@@ -84,15 +172,41 @@
     .navbar li {
         margin-right: 15px;
     }
+
+    .fb-video {
+        margin-left: 0;
+    }
 }
 
+/*-Mobile-*/
+
 @media (max-width:568px) {
-    .navbar-fix {
-        width: 104%;
-    } 
 
     .navbar {
         margin-right: 10px;
     }
 
+    .about-us {
+        margin-top: -90px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .logo {
+        max-width: 30px;
+        margin: 11px 0 3px 6px;
+    }
+
+    .navbar {
+        margin-right: 3px;
+    }
+
+    .navbar li {
+        margin-right: 9px;
+    }
+    
+    .about-us {
+        margin-top: -130px;
+    }
 }

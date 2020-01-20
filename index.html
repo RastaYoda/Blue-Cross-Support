@@ -22,16 +22,18 @@
         <li><a href="#about-us">About Us</a></li>
         <li><a href="#how-we-help">How We Help</a></li>
         <li><a href="#donate">Donate</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#">Social Links</a></li>
        </ul>
        <div class="dropdown show" id="mobile-navbar">
         <a class="btn btn-secondary dropdown-toggle" id="btn-menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
          <a class="dropdown-item" href="#home">Home</a>
-         <a class="dropdown-item" href="#">About Us</a>
-         <a class="dropdown-item" href="#">How We Help</a>
-         <a class="dropdown-item" href="#">Donate</a>
-         <a class="dropdown-item" href="#">Contact</a>
+         <a class="dropdown-item" href="#about-us">About Us</a>
+         <a class="dropdown-item" href="#how-w-help">How We Help</a>
+         <a class="dropdown-item" href="#donate">Donate</a>
+         <a class="dropdown-item" href="#">Contact Us</a>
+         <a class="dropdown-item" href="#">Social Links</a>
         </div>
        </div>
      </nav>
@@ -107,6 +109,47 @@
      </div>
     </div>
    </div>
+  </section>
+
+  <section class="donate-info">
+   <div class="row">
+    <div class="col-12">
+     <p>By donating to Blue Cross, you can transform the lives of pets in the UK by helping to provide life-saving operations,
+     paying for their food or finding loving new homes. Any amount you can give us will help change the lives of thousands of pets across the UK.
+     If you are interested in supporting our cause, click the button below to open Official Blue Cross page.</p>
+     <a href="https://www.bluecross.org.uk/donate" target="_blank"><button type="button" id="donate-btn" class="btn btn-primary">Donate</button></a>
+    </div>
+   </div>
+  </section>
+
+  <section class="contact-section">
+   <div class="row">
+    <div class="col-12 contact-header"><h2>Got ideas on how to help us in other ways than financial? Feel free to contact us via this form!</h2></div>
+   </div>
+   <form class="contact-form">
+     <div class="form-row">
+      <div class="form-group col-6 names">
+       <label for="name">Name:</label>
+       <input class="form-control" type="text" name="name" id="name" placeholder="Bob" />
+      </div>
+      <div class="form-group col-6 names">
+       <label for="surname">Surname:</label>
+       <input class="form-control" type="text" name="surname" id="surname" placeholder="Marley" />
+      </div>
+      <div class="form-group col-12"> 
+       <label for="email">Email:</label>
+       <input class="form-control" type="email" name="email" id="email" placeholder="rastafarai777@bake.com" required />
+      </div>
+      <div class="form-group col-12"> 
+       <label class="idea-input" for="idea">Your Suggestion:</label>
+       <textarea class="form-control" type="text" name="idea" id="idea" rows="5" required></textarea>
+      </div>
+      <div class="form-group col-12"> 
+       <input class="btn form-btn" type="submit" />
+       <input class="btn form-btn" type="reset" />
+      </div>
+     </div>
+    </form>
   </section>
 
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

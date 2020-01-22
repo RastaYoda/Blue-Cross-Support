@@ -142,6 +142,7 @@ body {
     height: 420px;
     background-position: center;
     background-repeat: no-repeat;
+    border: 1px solid rgba(0, 0, 0, 0.1)
 }
 
 #rehome {
@@ -183,7 +184,7 @@ body {
     text-align: center;
     font-family: 'Gelasio', serif;
     padding: 30px;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     background-image: url(../images/pattern.jpg);
     background-repeat: repeat;
 }
@@ -216,6 +217,29 @@ body {
     height: 50px;
     font-weight: 300;
     font-size: 125%;
+    border: 1px solid #000000;
+}
+
+/*-------------------Footer Section----------------*/
+
+.tdm-stuff {
+    font-size: 60%;
+    width: 400px;
+    height: 20px;
+    padding: 3px 0 5px 3px;
+    display: inline-block;
+}
+
+.footer-col {
+    background-color: #FAFAFA;
+}
+
+.footer-col a i {
+    float: right;
+    display: inline-block;
+    font-size: 200%;
+    color: #00B1FF;
+    margin: 6px 10px 0 5px;
 }
 
 /*-------------------Media Queries-----------------*/
@@ -267,12 +291,12 @@ body {
     }
 
     .card-fg {
-    width: 50%;
-    margin-top: 10%;
+        width: 50%;
+        margin-top: 10%;
     }
 
     .card-row {
-    width: auto;
+        width: auto;
     }
 
     .card-images {
@@ -307,6 +331,20 @@ body {
         visibility: visible;
         float: right;
     }
+
+    #donate-btn {
+        width: 100px;
+        height: 50px;
+        font-size: 75%;
+    }
+    
+    .tdm-stuff {
+        width: 200px;
+    }
+
+    .tdm-extra {
+        display: none;
+    }
 }
 
 /*-Mobile-*/
@@ -336,6 +374,15 @@ body {
 
     .card-fg {
         width: 90%;
+    }
+
+    #donate-btn {
+        font-size: 100%;
+    }
+
+    .form-btn {
+        margin: 5px;
+        padding: 0;
     }
 }
 

@@ -1,176 +1,178 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
- <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/859832516e.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
- </head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/859832516e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    </head>
 
- <body>
-  <header>
-   <!---Navigation Menu--->
-   <!---I know that bootstrap would be more effecient with it. But I wanted to make sure I can make that on my own. I lean towards that philosophy through entire project.-->
-   <!---Though I will utilise Bootstrap when things go beyond my current abilities.-->
-   <div class="row menu-bg navbar-fix"> 
-    <div class="col-12">
-     <nav>
-       <img src="assets/images/bluecross-logo.png" class="logo" />
-       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#how-we-help">How We Help</a></li>
-        <li><a href="#donate">Donate</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#social">Social Links</a></li>
-       </ul>
-       <div class="dropdown show" id="mobile-navbar">
-        <a class="btn btn-secondary dropdown-toggle" id="btn-menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-         <a class="dropdown-item" href="#home">Home</a>
-         <a class="dropdown-item" href="#about-us">About Us</a>
-         <a class="dropdown-item" href="#how-we-help">How We Help</a>
-         <a class="dropdown-item" href="#donate">Donate</a>
-         <a class="dropdown-item" href="#contact">Contact Us</a>
-         <a class="dropdown-item" href="#social">Social Links</a>
-        </div>
-       </div>
-     </nav>
-    </div>
-   </div>
-    <!---Images--->
-   <div id="home" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="3000">
-    <div class="carousel-inner">
-      <div class="carousel-item active sadimg">
-        <img class="d-block w-100" src="assets/images/abandoneddog.jpg" alt="Abandoned Dog">
-      </div>
-      <div class="carousel-item sadimg">
-        <img class="d-block w-100" src="assets/images/abandonedcat.jpg" alt="Abandoned Cat">
-      </div>
-      <div class="carousel-item sadimg">
-        <img class="d-block w-100" src="assets/images/injuredcat.jpg" alt="Injured Cat">
-      </div>
-   </div>
-   </div>
-  </header>
-  
-  <section class="about-us-bg" id="about-us">
-   <span><h2 class="content-header">What is Blue Cross?</h2></span>
-    <div class="row">   
-     <!--Facebook Embedded Video-->
-     <div class="col-xl-5 col-lg-12 col-sm-12">
-      <p align="center"><iframe class="fb-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FthebluecrossUK%2Fvideos%2F2416904371971911%2F&show_text=0&width=560" width="600" height="340" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></p>
-     </div>
-     <!--About Blue Cross Content-->
-     <div class="col-xl-6 col-lg-12 col-sm-12 about-us">
-      <p>Blue Cross is a charity that has been helping sick, injured, abandoned and homeless pets since 1897.
-      Pets help us in so many ways and they depend entirely on us. That's why at Blue Cross we believe in helping pets because pets help us.</p>
-      <p>We help thousands of pets in need every month, providing veterinary care, expert behaviour help and find them loving happy homes, 
-      as well as advice and education for current or future pet owners and pet bereavement support. We develop lifelong relationships with pets and owners, 
-      providing quality care that is accessible and non-judgemental. With your support we can give back to more pets in need.</p>
-      <p>Our vision is that every pet will enjoy a healthy life in a happy home and we won't rest until we achieve it. But we really need your help.
-      We care for around 40,000 pets every year but we know it's not enough - there are many, many more out there who still desperately need us and we must be there for them.</p>
-      <p><strong>Pets change lives. We change theirs.</strong></p>
-     </div>
-    </div>
-  </section>
+    <body>
+        <header>
+            <!---Navigation Menu--->
+            <!---I know that bootstrap would be more effecient with it. But I wanted to make sure I can make that on my own. I lean towards that philosophy through entire project.-->
+            <!---Though I will utilise Bootstrap when things go beyond my current abilities.-->
+            <div class="menu-bg navbar-fix"> 
+                <nav>
+                    <img src="assets/images/bluecross-logo.png" class="logo" />
+                    <ul class="navbar">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#how-we-help">How We Help</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#social">Social Links</a></li>
+                    </ul>
+                    <div class="dropdown show" id="mobile-navbar">
+                        <a class="btn btn-secondary dropdown-toggle" id="btn-menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#home">Home</a>
+                            <a class="dropdown-item" href="#about-us">About Us</a>
+                            <a class="dropdown-item" href="#how-we-help">How We Help</a>
+                            <a class="dropdown-item" href="#donate">Donate</a>
+                            <a class="dropdown-item" href="#contact">Contact Us</a>
+                            <a class="dropdown-item" href="#social">Social Links</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!---Images--->
+            <div id="home" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active sadimg">
+                        <img class="d-block w-100" src="assets/images/abandoneddog.jpg" alt="Abandoned Dog">
+                    </div>
+                    <div class="carousel-item sadimg">
+                        <img class="d-block w-100" src="assets/images/abandonedcat.jpg" alt="Abandoned Cat">
+                    </div>
+                    <div class="carousel-item sadimg">
+                        <img class="d-block w-100" src="assets/images/injuredcat.jpg" alt="Injured Cat">
+                    </div>
+                </div>
+            </div>
+        </header>
 
-  <section class="how-we-help" id="how-we-help">
-   <!--How we help top-->
-   <div class="row card-row">
+        <section class="about-us-bg container-fluid" id="about-us">
+            <span><h2 class="content-header">What is Blue Cross?</h2></span>
+            <div class="row">   
+                <!--Facebook Embedded Video-->
+                <div class="col-xl-5 col-lg-12 col-sm-12 text-center">
+                    <iframe class="fb-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FthebluecrossUK%2Fvideos%2F2416904371971911%2F&show_text=0&width=560" width="600" height="340" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                </div>
+                <!--About Blue Cross Content-->
+                <div class="col-xl-6 col-lg-12 col-sm-12 about-us">
+                    <p>Blue Cross is a charity that has been helping sick, injured, abandoned and homeless pets since 1897.
+                    Pets help us in so many ways and they depend entirely on us. That's why at Blue Cross we believe in helping pets because pets help us.</p>
+                    <p>We help thousands of pets in need every month, providing veterinary care, expert behaviour help and find them loving happy homes, 
+                    as well as advice and education for current or future pet owners and pet bereavement support. We develop lifelong relationships with pets and owners, 
+                    providing quality care that is accessible and non-judgemental. With your support we can give back to more pets in need.</p>
+                    <p>Our vision is that every pet will enjoy a healthy life in a happy home and we won't rest until we achieve it. But we really need your help.
+                    We care for around 40,000 pets every year but we know it's not enough - there are many, many more out there who still desperately need us and we must be there for them.</p>
+                    <p><strong>Pets change lives. We change theirs.</strong></p>
+                </div>
+            </div>
+        </section>
 
-    <div class="col-lg-6 col-md-12 card-images" class="card" id="rehome">
-     <div class="card-fg">
-      <h3 class="help-heading">Rehoming</h3>
-      <p>We find homes for unwanted cats, dogs, small pets and horses across the UK and our tailor-made service means we help each pet find the right person for them.</p>
-     </div>
-    </div>
+        <section class="how-we-help container-fluid" id="how-we-help">
+            <!--How we help top-->
+            <div class="row card-row">
+                <div class="col-lg-6 col-md-12 card-images" class="card" id="rehome">
+                    <div class="card-fg">
+                        <h3 class="help-heading">Rehoming</h3>
+                        <p>We find homes for unwanted cats, dogs, small pets and horses across the UK and our tailor-made service means we help each pet find the right person for them.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 card-images" id="vet">
+                    <div class="card-fg">
+                        <h3 class="help-heading">Veterinary</h3>
+                        <p>Our animal hospitals and pet care clinics provide free veterinary treatment to sick and injured pets when their owners can't afford private veterinary fees.</p>
+                    </div>
+                </div>
+            </div>
+            <!--How we help bottom-->
+            <div class="row card-row">
+                <div class="col-lg-6 col-md-12 card-images" id="education">
+                    <div class="card-fg">
+                        <h3 class="help-heading">Education</h3>
+                        <p>The Blue Cross Education Team teaches young people and pet owners about pet welfare, staying safe around dogs and responsible pet ownership.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 card-images" id="bereavement">
+                    <div class="card-fg">
+                        <h3 class="help-heading">Pet Bereavement Support</h3>
+                        <p>When the love and friendship of a pet are gone, life may suddenly seem very empty. If you have lost, or are facing saying goodbye to,
+                         a much loved pet and need somebody to talk to, our Pet Bereavement Support Service is here for you every day.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="col-lg-6 col-md-12 card-images" id="vet">
-     <div class="card-fg">
-      <h3 class="help-heading">Veterinary</h3>
-      <p>Our animal hospitals and pet care clinics provide free veterinary treatment to sick and injured pets when their owners can't afford private veterinary fees.</p>
-    </div>
-    </div>
-   </div>
-   <!--How we help bottom-->
-   <div class="row card-row">
-    <div class="col-lg-6 col-md-12 card-images" id="education">
-     <div class="card-fg">
-      <h3 class="help-heading">Education</h3>
-      <p>The Blue Cross Education Team teaches young people and pet owners about pet welfare, staying safe around dogs and responsible pet ownership.</p>
-     </div>
-    </div>
-    <div class="col-lg-6 col-md-12 card-images" id="bereavement">
-     <div class="card-fg">
-      <h3 class="help-heading">Pet Bereavement Support</h3>
-      <p>When the love and friendship of a pet are gone, life may suddenly seem very empty. If you have lost, or are facing saying goodbye to, a much loved pet and need somebody to talk to, our Pet Bereavement Support Service is here for you every day.</p>
-     </div>
-    </div>
-   </div>
-  </section>
+        <section class="donate-info">
+            <section class="container" id="donate">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Thousands of pets in UK are suffering everyday. They have to endure a lot of hardships such as abuse, abandonment and extreme temperatures.
+                        By donating to Blue Cross, you can transform their lives by helping to provide life-saving operations, paying for their food or finding loving new homes. 
+                        Any amount you can give us will help change the lives of thousands of pets across the UK. Every bit matters, only with your help we can make a difference.
+                        If you are interested in supporting our cause, then click the button below to open Official Blue Cross page. We express our gratitude in advance for any
+                        support you may provide.</p>
+                        <a href="https://www.bluecross.org.uk/donate" target="_blank"><button type="button" id="donate-btn" class="btn btn-primary">Donate</button></a>
+                    </div>
+                </div>
+            </section>
+        </section>
 
-  <section class="donate-info" id="donate">
-   <div class="row">
-    <div class="col-12">
-     <p>Thousands of pets in UK are suffering everyday. They have to endure a lot of hardships such as abuse, abandonment and extreme temperatures.
-     By donating to Blue Cross, you can transform their lives by helping to provide life-saving operations, paying for their food or finding loving new homes. 
-     Any amount you can give us will help change the lives of thousands of pets across the UK. Every bit matters, only with your help we can make a difference.
-     If you are interested in supporting our cause, then click the button below to open Official Blue Cross page. We express our gratitude in advance for any
-     support you may provide.</p>
-     <a href="https://www.bluecross.org.uk/donate" target="_blank"><button type="button" id="donate-btn" class="btn btn-primary">Donate</button></a>
-    </div>
-   </div>
-  </section>
+        <section class="contact-section container-fluid" id="contact">
+            <div class="row">
+                <div class="col-12 contact-header"><h2>Got ideas on how to help us in other ways than financial? Feel free to contact us via this form!</h2></div>
+            </div>
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group col-6 names">
+                        <label for="name">Name:</label>
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Bob" />
+                    </div>
+                    <div class="form-group col-6 names">
+                        <label for="surname">Surname:</label>
+                        <input class="form-control" type="text" name="surname" id="surname" placeholder="Marley" />
+                    </div>
+                    <div class="form-group col-12"> 
+                        <label for="email">Email:</label>
+                        <input class="form-control" type="email" name="email" id="email" placeholder="rastafarai777@bake.com" required />
+                    </div>
+                    <div class="form-group col-12"> 
+                        <label class="idea-input" for="idea">Your Suggestion:</label>
+                        <textarea class="form-control" type="text" name="idea" id="idea" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group col-12"> 
+                        <input class="btn form-btn" type="submit" />
+                        <input class="btn form-btn" type="reset" />
+                    </div>
+                </div>
+            </form>
+        </section>
 
-  <section class="contact-section" id="contact">
-   <div class="row">
-    <div class="col-12 contact-header"><h2>Got ideas on how to help us in other ways than financial? Feel free to contact us via this form!</h2></div>
-   </div>
-   <form class="contact-form">
-     <div class="form-row">
-      <div class="form-group col-6 names">
-       <label for="name">Name:</label>
-       <input class="form-control" type="text" name="name" id="name" placeholder="Bob" />
-      </div>
-      <div class="form-group col-6 names">
-       <label for="surname">Surname:</label>
-       <input class="form-control" type="text" name="surname" id="surname" placeholder="Marley" />
-      </div>
-      <div class="form-group col-12"> 
-       <label for="email">Email:</label>
-       <input class="form-control" type="email" name="email" id="email" placeholder="rastafarai777@bake.com" required />
-      </div>
-      <div class="form-group col-12"> 
-       <label class="idea-input" for="idea">Your Suggestion:</label>
-       <textarea class="form-control" type="text" name="idea" id="idea" rows="5" required></textarea>
-      </div>
-      <div class="form-group col-12"> 
-       <input class="btn form-btn" type="submit" />
-       <input class="btn form-btn" type="reset" />
-      </div>
-     </div>
-    </form>
-  </section>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-12 footer-col">
+                    <span>
+                        <p class="tdm-stuff">Blue Cross is a registered charity in England and Wales (224392) and in Scotland (SC040154).<br /> A company limited by guarantee.
+                            <span class="tdm-extra">Registered company in England and Wales under company number 00363197.<br /> Registered address Shilton Road, Burford, Oxfordshire, OX18 4PF.<br /> Made by RastaYoda.</span>
+                        </p>
+                    </span>
+                    <a href="https://www.facebook.com/thebluecrossUK/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/the_blue_cross" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/the_blue_cross/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
 
-  <footer>
-   <div class="row">
-    <div class="col-12 footer-col">
-     <p class="tdm-stuff">Blue Cross is a registered charity in England and Wales (224392) and in Scotland (SC040154). A company limited by guarantee.</p>
-     <p class="tdm-stuff tdm-extra">Registered company in England and Wales under company number 00363197. Registered address Shilton Road, Burford, Oxfordshire, OX18 4PF. Made by RastaYoda.</p>
-     <a href="https://www.facebook.com/thebluecrossUK/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-     <a href="https://twitter.com/the_blue_cross" target="_blank"><i class="fab fa-twitter-square"></i></a>
-     <a href="https://www.instagram.com/the_blue_cross/" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
-   </div>
-  </footer>
-
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
- </body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    </body>
 </html>
 
 <!-------the images in the Header have been taken from following sites:

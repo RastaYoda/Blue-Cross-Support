@@ -61,6 +61,10 @@ body {
     margin-top: 7px;
 }
 
+.navigation {
+    padding-top: 35px;
+}
+
 /*----------------Sad Animals Picture-----------*/
 
 .carousel {
@@ -70,7 +74,7 @@ body {
 
 .sadimg {
     margin-top: 55px;
-    max-height: 1000px;
+    max-height: 850px;
     width: 100%;
 }
 

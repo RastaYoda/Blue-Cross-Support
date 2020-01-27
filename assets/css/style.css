@@ -172,6 +172,7 @@ body {
     font-size: 180%;
     padding: 30px 20px 30px 20px;
     background-color: #F2F2F2;
+    border: 1px solid grey;
 }
 
 #donate-btn {
@@ -225,6 +226,52 @@ body {
     border: 1px solid #000000;
 }
 
+/*-------------------Map section-------------------*/
+
+.location {
+    padding: 40px 0 30px 0;
+    background-color: #F2F2F2;
+}
+
+.pre-map {
+    padding: 10px 15px 40px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cities {
+    width: auto;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 10px 80px 0 10px;
+    border-left: 1px dotted #000000;
+}
+
+.cities ul {
+    padding-top: 5px;
+}
+
+.cities a {
+    text-decoration-color: #000000;
+}
+
+.cities li {
+    margin-top: 5px;
+    font-family: 'Gelasio', serif;
+    font-size: 90%;
+    color: #000000;
+}
+
+.cities h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#map {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*-------------------Footer Section----------------*/
 
 .tdm-stuff {
@@ -250,14 +297,24 @@ body {
 
 /*-------------------Media Queries-----------------*/
 
+@media (min-width:1200px) {
+    #map {
+        margin-left: 60px;
+    }
+}
+
 @media (max-width:1200px) {
     .about-us {
         text-align: center;
         border: none;
     }
+
+    #map {
+        width: 70%;
+    }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1080px) {
     .sadimg {
         margin-top: 10px;
     }
@@ -269,7 +326,12 @@ body {
     
     .card-fg {
         width: 70%;
-        margin-top: 10%;
+        margin: 0;
+        font-size: 90%;
+    }
+
+    .cities {
+        padding: 0 0 0 10px;
     }
 }
 
@@ -285,6 +347,10 @@ body {
         display: inline;
         visibility: visible;
         float: right;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(255, 255, 255, 0.8);
     }
 
     #donate-btn {
@@ -339,6 +405,16 @@ body {
 
     .about-us {
         margin-top: -9%;
+    }
+
+    #map {
+        width: 90%;
+    }
+
+    .cities {
+        border: none;
+        padding-left: 20px;
+        float: left;
     }
 }
 

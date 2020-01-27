@@ -10,6 +10,7 @@ This website is designed for the general public to inform them about Blue Cross 
 In theory, those users will desire to see some general information about Blue Cross, how they help, where are they located and how to contact them. All of that is required to learn more about the charity and then make a fact-based decision on whether to support the charity or not.
 Also, the user might desire to learn further about Blue Cross so the corresponding links to the original website should be provided.
 
+Please follow the link to my wireframe: https://wireframe.cc/aAe6IX
 ## Features:
 
 The easy-to-use user interface. It will change the button layout depending on the device used. On desktop devices and tablets all the links will be arranged in-line in single row. While on mobile there'll be one Menu button in the corner, which when clicked will collapse a list of links.

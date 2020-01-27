@@ -12,8 +12,6 @@
     <body>
         <header>
             <!---Navigation Menu--->
-            <!---I know that bootstrap would be more effecient with it. But I wanted to make sure I can make that on my own. I lean towards that philosophy through entire project.-->
-            <!---Though I will utilise Bootstrap when things go beyond my current abilities.-->
             <div class="menu-bg navbar-fix"> 
                 <nav>
                     <img src="assets/images/bluecross-logo.png" class="logo" />
@@ -26,7 +24,8 @@
                         <li><a href="#contact">Contact Us</a></li>
                     </ul>
                     <div class="dropdown show" id="mobile-navbar">
-                        <a class="btn btn-secondary dropdown-toggle" id="btn-menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                        <a class="btn btn-secondary dropdown-toggle" id="btn-menu" href="#" role="button" 
+                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="#home">Home</a>
                             <a class="dropdown-item" href="#about-us">About Us</a>
@@ -60,10 +59,11 @@
                 <div class="row">   
                     <!--Facebook Embedded Video-->
                     <div class="col-xl-5 col-lg-12 col-sm-12 text-center">
-                        <iframe class="fb-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FthebluecrossUK%2Fvideos%2F2416904371971911%2F&show_text=0&width=560" width="600" height="340" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                        <iframe class="fb-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FthebluecrossUK%2Fvideos%2F2416904371971911%2F&show_text=0&width=560" 
+                        width="600" height="340" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                     </div>
                     <!--About Blue Cross Content-->
-                    <div class="col-xl-6 col-lg-12 col-sm-12 about-us">
+                    <article class="col-xl-6 col-lg-12 col-sm-12 about-us">
                         <p>Blue Cross is a charity that has been helping sick, injured, abandoned and homeless pets since 1897.
                         Pets help us in so many ways and they depend entirely on us. That's why at Blue Cross we believe in helping pets because pets help us.</p>
                         <p>We help thousands of pets in need every month, providing veterinary care, expert behaviour help and find them loving happy homes, 
@@ -72,11 +72,11 @@
                         <p>Our vision is that every pet will enjoy a healthy life in a happy home and we won't rest until we achieve it. But we really need your help.
                         We care for around 40,000 pets every year but we know it's not enough - there are many, many more out there who still desperately need us and we must be there for them.</p>
                         <p><strong>Pets change lives. We change theirs.</strong></p>
-                    </div>
+                    </article>
                 </div>
             </section>
 
-            <section class="how-we-help navigation container-fluid" id="how-we-help">
+            <article class="how-we-help navigation container-fluid" id="how-we-help">
                 <!--How we help top-->
                 <div class="row card-row">
                     <div class="col-lg-6 col-md-12 card-images" class="card" id="rehome">
@@ -108,19 +108,19 @@
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section class="donate-info navigation" id="donate">
+            </article>
+    
+            <section class="donate-info donate-nav container-fluid">
                 <section class="container">
-                    <div class="row">
-                        <div class="col-12">
+                    <div class="row navigation" id="donate">
+                        <article class="col-12">
                             <p>Thousands of pets in UK are suffering everyday. They have to endure a lot of hardships such as abuse, abandonment and extreme temperatures.
                             By donating to Blue Cross, you can transform their lives by helping to provide life-saving operations, paying for their food or finding loving new homes. 
                             Any amount you can give us will help change the lives of thousands of pets across the UK. Every bit matters, only with your help we can make a difference.
                             If you are interested in supporting our cause, then click the button below to open Official Blue Cross page. We express our gratitude in advance for any
                             support you may provide.</p>
                             <a href="https://www.bluecross.org.uk/donate" target="_blank"><button type="button" id="donate-btn" class="btn btn-primary">Donate</button></a>
-                        </div>
+                        </article>
                     </div>
                 </section>
             </section>
@@ -174,9 +174,9 @@
                 </section>
             </section>
 
-            <section class="contact-section container-fluid navigation" id="contact">
+            <section class="contact-section container-fluid">
                 <div class="row">
-                    <div class="col-12 contact-header"><h2>Got ideas on how to help us in other ways rather than financial? Feel free to contact us via this form!</h2></div>
+                    <div class="col-12 contact-header navigation" id="contact"><h2>Got ideas on how to help us in other ways rather than financial? Feel free to contact us via this form!</h2></div>
                 </div>
                 <form class="contact-form">
                     <div class="form-row">
@@ -225,12 +225,3 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
     </body>
 </html>
-
-<!-------the images in the Header have been taken from following sites:
-https://wallpaperscraft.com/download/dog_street_small_abandoned_26615/1920x1080
-https://www.petsforpatriots.org/11-signs-of-animal-cruelty-and-how-you-can-help/abandoned-cat-cruelty-720x450/
-https://www.peta.org/wp-content/uploads/2016/03/homeless-dirty-white-cat-PETA-owned-602x400.jpg
------>
-
-<!-------Content and other information was pulled from official blue cross website. I have received their permession to do so
-and advertise their cause. There's the link: https://www.bluecross.org.uk/about-blue-cross ------------>

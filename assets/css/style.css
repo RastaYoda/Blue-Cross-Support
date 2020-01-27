@@ -62,8 +62,9 @@ body {
 }
 
 .navigation {
-    padding-top: 35px;
+    padding: 60px 0 60px 0;
 }
+
 
 /*----------------Sad Animals Picture-----------*/
 
@@ -305,6 +306,10 @@ body {
     #map {
         margin-left: 60px;
     }
+
+    .navigation {
+    padding: 60px 0 60px 0;
+    }
 }
 
 @media (max-width:1200px) {
@@ -315,6 +320,10 @@ body {
 
     #map {
         width: 70%;
+    }
+
+    .navigation {
+    padding: 35px 0 35px 0;
     }
 }
 

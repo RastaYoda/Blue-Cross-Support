@@ -28,8 +28,6 @@ Bootstrap: https://getbootstrap.com/: It were used for grid system, quick placin
 FontAwesome: https://fontawesome.com/: I used it to add icons to the links in the footer section.
 Google Fonts : https://fonts.google.com/: It was necessary to use other than default fonts on the page.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Seperation Line :)
-
 ## Testing: 
 The project was thoroughly tested to pinpoint any design errors or code misuse. Through testing, I relied on two basic functions for all tests: a preview page and Google Developer Tools.
 
@@ -37,7 +35,6 @@ To save a bit of time further on, I'll expand on how I used mentioned functions.
 First of all the preview page, this is the barebones of test's I've done. Through the entirety of the project, I've been visiting the preview page to ensure everything displays as intended and properly functions. To achieve this, every time I've added a new element, container, button, image or a style rule - I entered the preview page to ensure it does exactly what I want it to do.
 Then if some error occurs I use the Google Developer Tools by right-clicking on the element I desire to test and then select the Inspect option. This brings up the code, box model and other useful tools. For this project I heavily relied on box model, to show me all the padding and margin's so I can see what I need to adapt for it to display correctly. However whenever it's no padding or margin that I need to change or the problem persists - I use to code viewer. By selecting containers with problematic content, I inspect the code and try disabling/enabling some of the CSS rules. Then make conclusions and attempt to fix the code based on whatever idea comes in my head.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Seperation Line :)
 
 ## Site Section Testing Scenarios:
 ### Navigation Menu (Desktop):
@@ -49,7 +46,6 @@ Attempt to go to every section.
 
 Results - All of the links are functioning / Success
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ### Navigation Menu (Mobile):
 use a mobile device to ensure that the menu adapts.
@@ -60,7 +56,6 @@ Click on each link to navigate other sections, test pass if all links are workin
 
 Results - Button expands the link list, all links are functional / Succes
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ### Carousel Images:
 Navigate to the top of the page.
@@ -71,7 +66,6 @@ There must be no empty gaps on the sides and images must fit the screen.
 
 Results - Images replace each other every 3 seconds, no gaps present / Success
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ### About Us Section:
 Get to the About Us section.
@@ -82,7 +76,6 @@ The embedded Facebook video must be working and adapt to the screen size.
 
 Results - Text aligns properly, FaceBook video is responsive and in working order.
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ### How We Help Cards:
 Scroll down to How We Help section.
@@ -93,7 +86,6 @@ There must be 2 rows of 2 cards on desktop devices and 4 rows of one card each o
 
 Results - All 4 cards are present, background displays as intended and there's the subtle white background behind the text. Cards position changes depending on the screen size.
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ### Donate Section:
 Find the Donate section.
@@ -104,7 +96,6 @@ The donate button is working and redirecting the user to the official Blue Cross
 
 Results - Text is positioned withing Bootstrap container and the button is functioning as intended.
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ### Google Maps:
 Navigate to the Find Us section.
@@ -117,8 +108,6 @@ Lists present all branches in neat order and redirect user to the relevant page 
 
 The result - Google Map displays as planned. Unordered lists are present and position themselves as required on different devices. All of the links are functioning. / Succes
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
-
 ### Form Section:
 Find the form.
 
@@ -130,7 +119,6 @@ Ensure that Submit and Reset buttons are working as expected.
 
 Results - The form is rejected whenever email is of wrong format. Buttons are functioning and the form is pleasantly looking. 
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ### Footer Check:
 Must show some TradeMark information (more on desktop devices)
@@ -141,7 +129,6 @@ Icons must be displayed as links.
 
 Results - TM information displays as I planned, icons display properly and act as links.
 
-------------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8------8_8---------8_8------8_8-------------------------------------Look! Batarian!
 
 ## Compatability:
 
@@ -159,7 +146,6 @@ Including the following:
 -My PC 
 
 And across all of those devices the website worked as expected. 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Seperation Line :)
 
 ## Deployment:
 At the moment I didn't require any special deployment settings due to the simplicity of the project and lack of knowledge in that sphere. So all I've had to do to deploy this project:
@@ -176,7 +162,6 @@ At the moment I didn't require any special deployment settings due to the simpli
 
 -Verify the action and deploy the project!
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Seperation Line :)
 
 ## Credits:
 Majority of the presented content was copied from the official Blue Cross webpage -https://www.bluecross.org.uk/ 
